@@ -25,11 +25,7 @@ namespace Piki
     {
         public MainPage()
         {
-            this.InitializeComponent();
-            Clipboard.ContentChanged += (s, e) =>
-            {
-                DataPackageView dataPackageView = Clipboard.GetContent();
-            };
+            this.InitializeComponent();            
         }
     }
 }
